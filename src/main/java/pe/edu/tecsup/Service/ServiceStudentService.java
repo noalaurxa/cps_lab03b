@@ -1,4 +1,4 @@
-package pe.edu.tecsup;
+package pe.edu.tecsup.Service;
 
 public class ServiceStudentService {
     private final StudentRepository repository;
