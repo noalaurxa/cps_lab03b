@@ -1,6 +1,10 @@
-package pe.edu.tecsup.Service;
+package pe.edu.tecsup.lab03.services;
 
-public class ServiceStudentService {
+import pe.edu.tecsup.lab03.entities.StudentEntity;
+import pe.edu.tecsup.lab03.repositories.StudentRepository;
+
+public class StudentService {
+
     private final StudentRepository repository;
 
     public StudentService() {
@@ -11,6 +15,3 @@ public class ServiceStudentService {
         return repository.findStudent();
     }
 }
-
-
-
